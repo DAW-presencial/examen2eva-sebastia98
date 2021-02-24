@@ -12,5 +12,8 @@
     @yield('main')
   </div>
   <script src="{{ asset('js/app.js') }}" type="text/js"></script>
+  <div>
+    <a style="margin: 19px;" href="{{ route('tutors.index')}}" class="btn btn-primary">Tutors</a>
+    </div> 
 </body>
 </html>

@@ -15,7 +15,7 @@ use App\Http\Controllers\TutorController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('base');
 });
 
 Route::resource('tutors', TutorController::class);
