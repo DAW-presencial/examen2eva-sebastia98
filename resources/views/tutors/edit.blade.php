@@ -19,7 +19,7 @@
             @csrf
             <div class="form-group">    
                 <label for="first_name">Buisness Name:</label>
-                <input type="text" class="form-control" name="nameBuisness" value={{ $tutor->name }}/>
+                <input type="text" class="form-control" name="nameBuisness" value={{ $tutor->nameBuisness }}/>
             </div>
             <div class="form-group">
               <label for="email">Type Document:</label>
@@ -56,7 +56,12 @@
           </div> 
           <div class="form-group">
               <label for="job_title">Status:</label>
-              <input type="text" class="form-control" name="status" value={{ $tutor->status }}/>
+              <select name="status" class="form-select">
+                <option value="Empleado">Empleado</option>
+                <option value="Desempleado">Desempleado</option>
+                <option value="Jubilado">Jubilado</option>
+                <option value="Pensionista">Pensionista</option>
+              </select>
           </div> 
           <div class="form-group">
               <label for="job_title">Email:</label>

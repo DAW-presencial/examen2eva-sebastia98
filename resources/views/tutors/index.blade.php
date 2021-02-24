@@ -13,6 +13,7 @@
           <td>ID</td>
           <td>Name Buisness</td>
           <td>Type Document</td>
+          <td>Document Number</td>
           <td>Name</td>
           <td>Second Name</td>
           <td>Last Name</td>

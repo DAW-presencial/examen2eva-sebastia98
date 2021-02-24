@@ -60,7 +60,7 @@ class TutorController extends Controller
         ]);
 
         $tutors->save();
-        return redirect('/tutors')->with('success', 'Tutor saved!');
+        return redirect('tutors')->with('success', 'Tutor saved!');
     }
 
     /**
@@ -99,9 +99,9 @@ class TutorController extends Controller
         $tutor->name = $request->get('name');
         $tutor->secondName = $request->get('secondName');
         $tutor->lastName = $request->get('lastName');
-        $tutor->name = $request->get('country');
-        $tutor->country = $request->get('province');
-        $tutor->province = $request->get('municipy');
+        $tutor->country = $request->get('country');
+        $tutor->municipy = $request->get('municipy');
+        $tutor->province = $request->get('province');
         $tutor->status = $request->get('status');
         $tutor->email = $request->get('email');
         $tutor->number = $request->get('number');

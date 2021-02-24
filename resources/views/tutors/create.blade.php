@@ -3,7 +3,7 @@
 @section('main')
 <div class="row">
  <div class="col-sm-8 offset-sm-2">
-    <h1 class="display-3">Add a department</h1>
+    <h1 class="display-3">Add a tutor</h1>
   <div>
     @if ($errors->any())
       <div class="alert alert-danger">
@@ -52,11 +52,16 @@
           <div class="form-group">
             <label for="job_title">Municipy:</label>
             <input type="text" class="form-control" name="municipy"/>
-        </div> 
+        </div>
         <div class="form-group">
-            <label for="job_title">Status:</label>
-            <input type="text" class="form-control" name="status"/>
-        </div> 
+          <label for="job_title">Status:</label><br>
+          <select name="status" class="form-select">
+            <option value="Empleado">Empleado</option>
+            <option value="Desempleado">Desempleado</option>
+            <option value="Jubilado">Jubilado</option>
+            <option value="Pensionista">Pensionista</option>
+          </select>
+      </div> 
         <div class="form-group">
             <label for="job_title">Email:</label>
             <input type="text" class="form-control" name="email"/>
