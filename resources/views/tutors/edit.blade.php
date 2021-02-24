@@ -69,7 +69,7 @@
           </div> 
           <div class="form-group">
               <label for="job_title">Mobile:</label>
-              <input type="text" class="form-control" name="number" value={{ $tutor->number }}/>
+              <input type="tel" class="form-control" name="number" value={{ $tutor->number }}/>
           </div>
             <button type="submit" class="btn btn-primary">Update</button>
         </form>

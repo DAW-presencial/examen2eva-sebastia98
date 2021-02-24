@@ -68,7 +68,7 @@
         </div> 
         <div class="form-group">
             <label for="job_title">Mobile:</label>
-            <input type="text" class="form-control" name="number"/>
+            <input type="tel" class="form-control" name="number"/>
         </div>                
           <button type="submit" class="btn btn-primary">Add tutor</button>
       </form>
