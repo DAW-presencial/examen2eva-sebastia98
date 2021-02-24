@@ -33,6 +33,7 @@
             <td>{{$tutor->typeDocument}}</td>
             <td>{{$tutor->documentNumber}}</td>
             <td>{{$tutor->name}}</td>
+            <td>{{$tutor->secondName}}</td>
             <td>{{$tutor->lastName}}</td>
             <td>{{$tutor->country}}</td>
             <td>{{$tutor->province}}</td>
