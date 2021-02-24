@@ -7,5 +7,18 @@ use Illuminate\Database\Eloquent\Model;
 
 class Tutor extends Model
 {
-    use HasFactory;
+    protected $fillable = [
+        'nameBuisness',
+        'typeDocument',
+        'documentNumber',
+        'name',
+        'secondName',
+        'lastName',
+        'country',
+        'province',
+        'municipy',
+        'status',
+        'email',
+        'number',
+    ];
 }
